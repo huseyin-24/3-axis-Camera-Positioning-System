@@ -2,7 +2,9 @@
 
 The aim of the project is to position the high-speed camera in 3D Cartesian coordinates. Duet 3 Mainboard 6HC is used as a control card. Please refer to https://docs.duet3d.com for more information since this documentation only covers specific issues. Control card setup files can be reached in attachments.
 
-FİGURE1 ve video 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/486e7d98-34f1-423d-bb43-f92b5da7f263" width="402" /></p>
+<p align="center">Figure 1. General Assembly</p>
 
 ## 1. Components
 - Control card: Duet 3 Mainboard 6HC
@@ -20,7 +22,9 @@ FİGURE1 ve video
 - Raspberry Pi 3B+ and its power supply: Pi is connected to the control board for WLAN connection.
 
 ## 2. Wiring
-figure 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4d843850-6bf4-4938-af6c-c611ee6fb31a" width="402" /></p>
+<p align="center">Figure 2. Duet3 6HC and Raspberry Pi 3B+</p>
 
 - The white wire indicated via the blue rectangle is the power supply of the Pi and directly connects to mains electricity.
 
@@ -31,7 +35,9 @@ figure
 - The wires indicated via the black rectangle are for steppers. (Note that only one wire plugs into the control card for 2 steppers of the z-axis. Please refer to the related section below for how to connect 2 motors.)
 
   #### Power Supply
-figure 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46314d7c-70af-4e88-bdec-38ccd8addc46" width="402" /></p>
+<p align="center">Figure 3. Power Supply</p>
 
 - Green wires are coming from the control card.
 
@@ -40,7 +46,9 @@ figure
   #### End Stops
 Please refer to https://reprap.org/wiki/Mechanical_Endstop for further information. Note that A: Simple configuration in figure 5 is used for wiring end stops.
 
-figure 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/46314d7c-70af-4e88-bdec-38ccd8addc46" width="402" /></p>
+<p align="center">Figure 3. Power Supply</p>
 
   #### Steppers
 Please refer to https://www.instructables.com/Wiring-Your-Z-Stepper-Motors-in-Series/ for the series connection of z-axis motors.
