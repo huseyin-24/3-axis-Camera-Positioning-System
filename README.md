@@ -47,6 +47,7 @@ Please refer to https://www.instructables.com/Wiring-Your-Z-Stepper-Motors-in-Se
 
 figure 
 
+  
 ## 3. x-axis Assembly Photos
    Though the assembly size is slightly different, the y-axis is very similar to the x-axis construction.
    fig12
